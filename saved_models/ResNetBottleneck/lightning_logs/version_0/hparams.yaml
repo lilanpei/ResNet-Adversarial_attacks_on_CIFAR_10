@@ -1,0 +1,18 @@
+model_hparams:
+  act_fn_name: relu
+  block_name: BottleneckBlock
+  c_hidden:
+  - 16
+  - 32
+  - 64
+  num_blocks:
+  - 3
+  - 3
+  - 3
+  num_classes: 10
+model_name: ResNet
+optimizer_hparams:
+  lr: 0.1
+  momentum: 0.9
+  weight_decay: 0.0001
+optimizer_name: SGD
